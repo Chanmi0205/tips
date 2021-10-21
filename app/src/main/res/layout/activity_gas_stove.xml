@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".bottle" >
 
 
     <LinearLayout
@@ -18,79 +18,30 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:text="a"
-            android:textSize="40dp"/>
+            android:textSize="40dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="가스레인지"
             android:textSize="25pt"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"/>
 
     </LinearLayout>
 
-    <LinearLayout
+    <ImageView
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
+        android:layout_height="250dp" >
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/image1"
-            android:layout_width="207dp"
-            android:layout_height="200dp"
-            android:text="B"
-            android:textSize="40dp"/>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="설명"
-            android:textSize="30pt"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/image3"
-            android:layout_width="207dp"
-            android:layout_height="200dp"
-            android:text="c"
-            android:textSize="40dp"/>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="설명"
-            android:textSize="30pt"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/image5"
-            android:layout_width="207dp"
-            android:layout_height="200dp"
-            android:text="d"
-            android:textSize="40dp"/>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="설명"
-            android:textSize="30pt"/>
-
-    </LinearLayout>
+        android:text="설명"
+        android:textSize="15pt" />
 
 
 

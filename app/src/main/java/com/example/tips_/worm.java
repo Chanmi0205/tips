@@ -12,11 +12,21 @@ public class worm extends AppCompatActivity {
     private Button worm_go;
     private Button cockroach;
     private Button drosophila;
+    private Button mosquito;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_worm);
+
+        mosquito = findViewById(R.id.mosquito);
+        mosquito.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(worm.this , mosquito.class);
+                startActivity(intent);
+            }
+        });
 
         drosophila = findViewById(R.id.drosophila);
         drosophila.setOnClickListener(new View.OnClickListener() {
@@ -40,8 +50,7 @@ public class worm extends AppCompatActivity {
         worm_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(worm.this, learn.class);  // 전 화면으로 이동
-                startActivity(intent);
+                finish();
             }
         });
 

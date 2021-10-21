@@ -55,9 +55,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-
+        android:orientation="horizontal" >
+ww
         <Button
             android:id="@+id/sink"
             android:layout_width="207dp"
@@ -70,8 +69,9 @@
             android:id="@+id/gas_stove"
             android:layout_width="207dp"
             android:layout_height="200dp"
-            android:text="가스레인"
-            android:textSize="40dp" />
+            android:text="가스"
+            android:textSize="40dp"
+            />
 
     </LinearLayout>
 

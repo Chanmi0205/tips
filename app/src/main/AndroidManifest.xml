@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.tips_">
 
     <application
@@ -12,6 +13,8 @@
         <activity
             android:name=".gas_stove"
             android:exported="false" />
+        <activity android:name=".bottle"
+            android:exported="false"/>
         <activity
             android:name=".sink"
             android:exported="false" />
@@ -61,8 +64,9 @@
             android:name=".guitar"
             android:exported="true" />
         <activity
-            android:name=".Guitar"
-            android:exported="true" />
+            android:name=".guitar"
+            android:exported="true"
+            tools:ignore="DuplicateActivity" />
         <activity
             android:name=".worm"
             android:exported="true" />

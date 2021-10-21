@@ -38,7 +38,7 @@
             android:id="@+id/bottle"
             android:layout_width="207dp"
             android:layout_height="200dp"
-            android:text="폐트병"
+            android:text="페트병"
             android:textSize="40dp"/>
 
 

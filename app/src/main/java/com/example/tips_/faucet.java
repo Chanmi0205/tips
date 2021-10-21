@@ -20,8 +20,7 @@ public class faucet extends AppCompatActivity {
         faucet_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(faucet.this , cleaning.class);  // 전 화면으로 이동
-                startActivity(intent);
+                finish();
             }
         });
 

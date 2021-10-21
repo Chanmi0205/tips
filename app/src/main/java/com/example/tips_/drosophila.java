@@ -20,8 +20,7 @@ public class drosophila extends AppCompatActivity {
         drosophila_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(drosophila.this, worm.class);  // 전 화면으로 이동
-                startActivity(intent);
+                finish();
             }
         });
 

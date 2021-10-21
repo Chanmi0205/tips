@@ -20,8 +20,7 @@ public class tree extends AppCompatActivity {
         tree_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (tree.this , removal.class);  // 전 화면으로 이동
-                startActivity(intent);
+                finish();
             }
         });
 

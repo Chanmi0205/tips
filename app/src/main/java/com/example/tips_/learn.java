@@ -68,14 +68,13 @@ public class learn extends AppCompatActivity {
         });
 
         learn_go = findViewById(R.id.learn_go);
-        learn_go.setOnClickListener(new View.OnClickListener() {
+        learn_go.setOnClickListener(new View.OnClickListener() { // main 화면으로 이동
             class main {
             }
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(learn.this , main.class); // 메인화면 이동
-                startActivity(intent);
+                finish();
             }
         });
     }

@@ -31,8 +31,7 @@ public class qa extends AppCompatActivity {
         qa_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(qa.this, MainActivity.class);  // 전 화면으로 이동
-                startActivity(intent);
+                finish();
             }
         });
 

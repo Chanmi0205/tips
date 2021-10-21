@@ -20,8 +20,7 @@ public class cockroach extends AppCompatActivity {
         cockroach_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(cockroach.this, worm.class);  // 전 화면으로 이동
-                startActivity(intent);
+                finish();
             }
         });
 

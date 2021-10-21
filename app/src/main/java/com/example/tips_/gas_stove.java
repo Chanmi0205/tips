@@ -20,8 +20,7 @@ public class gas_stove extends AppCompatActivity {
         gas_stove_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(gas_stove.this , cleaning.class);  // 전 화면으로 이동
-                startActivity(intent);
+                finish();
             }
         });
 

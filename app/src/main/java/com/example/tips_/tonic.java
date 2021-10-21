@@ -20,8 +20,7 @@ public class tonic extends AppCompatActivity {
         tonic_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (tonic.this , removal.class);  // 전 화면으로 이동
-                startActivity(intent);
+                finish();
             }
         });
 

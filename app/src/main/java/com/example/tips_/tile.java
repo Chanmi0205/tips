@@ -21,8 +21,7 @@ public class tile extends AppCompatActivity {
         tile_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(tile.this , cleaning.class);  // 전 화면으로 이동
-                startActivity(intent);
+                finish();
             }
         });
 

@@ -30,14 +30,14 @@ public class removal extends AppCompatActivity {
             }
         });
 
-        tape = findViewById(R.id.tape);
-        tape.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(removal.this , tape.class); // 테이프 화면으로 이동
-                startActivity(intent);
-            }
-        });
+       tape = findViewById(R.id.tape);
+       tape.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent intent = new Intent(removal.this , tape.class);  // 테이프 화면으로 이동
+               startActivity(intent);
+           }
+       });
 
         tree = findViewById(R.id.tree);
         tree.setOnClickListener(new View.OnClickListener() {
@@ -61,8 +61,7 @@ public class removal extends AppCompatActivity {
         removal_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(removal.this , learn.class);  // 전 화면으로 이동
-                startActivity(intent);
+                finish();          // 전 화면으로 이동
             }
         });
 

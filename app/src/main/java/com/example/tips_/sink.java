@@ -20,8 +20,7 @@ public class sink extends AppCompatActivity {
         sink_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(sink.this , cleaning.class);  // 전 화면으로 이동
-                startActivity(intent);
+                finish();
             }
         });
 
