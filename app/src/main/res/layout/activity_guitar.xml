@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".guitar" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:text="기타"
             android:textSize="25pt"
+            android:layout_marginLeft="10dp"
             android:layout_gravity="center"/>
 
     </LinearLayout>

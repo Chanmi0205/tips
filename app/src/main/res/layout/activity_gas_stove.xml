@@ -30,12 +30,14 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:layout_marginTop="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="250dp" >
-    </ImageView>
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/gas_stove_image" >
+
+    </ImageView>
 
     <TextView
         android:layout_width="wrap_content"

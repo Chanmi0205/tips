@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:text="분리수거"
             android:textSize="25pt"
+            android:layout_marginLeft="10dp"
             android:layout_gravity="center"/>
 
     </LinearLayout>
