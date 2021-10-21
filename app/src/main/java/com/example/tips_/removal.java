@@ -66,17 +66,11 @@ public class removal extends AppCompatActivity {
             }
         });
 
-
         bottle = findViewById(R.id.bottle);
         bottle.setOnClickListener(new View.OnClickListener() {
-            class Intnet extends Intent {
-                public Intnet(removal removal, Class<bottle> bottleClass) {
-                }
-            }
-
             @Override
             public void onClick(View v) {
-                Intent intent = new Intnet(removal.this , bottle.class);  // B를 눌렀을 때 나타나는 화면으로 이동
+                Intent intent = new Intent(removal.this , bottle.class);  // 폐트병 화면으로 이동
                 startActivity(intent);
             }
         });

@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tips_">
         <activity
+            android:name=".gas_stove"
+            android:exported="false" />
+        <activity
+            android:name=".sink"
+            android:exported="false" />
+        <activity
+            android:name=".faucet"
+            android:exported="false" />
+        <activity
+            android:name=".tile"
+            android:exported="false" />
+        <activity
+            android:name=".mosquito"
+            android:exported="false" />
+        <activity
+            android:name=".drosophila"
+            android:exported="false" />
+        <activity
+            android:name=".cockroach"
+            android:exported="false" />
+        <activity
             android:name=".towel"
             android:exported="true" />
         <activity

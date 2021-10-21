@@ -52,7 +52,17 @@ public class learn extends AppCompatActivity {
         cleaning.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(learn.this , cleaning.class); // 청소 화면으로 이동
+                Intent intent = new Intent(learn.this , cleaning.class);  // 청소 화면으로 이동
+                startActivity(intent);
+            }
+        });
+
+
+        removal = findViewById(R.id.removal);
+        removal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(learn.this , removal.class); // 분리수거 화면으로 이동
                 startActivity(intent);
             }
         });
@@ -65,18 +75,6 @@ public class learn extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(learn.this , main.class); // 메인화면 이동
-                startActivity(intent);
-            }
-        });
-
-        removal = findViewById(R.id.removal);
-        removal.setOnClickListener(new View.OnClickListener() {
-            class removal {
-            }
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(learn.this , removal.class);  // 분리수거 화면 이동
                 startActivity(intent);
             }
         });

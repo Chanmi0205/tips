@@ -7,20 +7,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class clothes extends AppCompatActivity {
+public class cockroach extends AppCompatActivity {
 
     private Button go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clothes);
+        setContentView(R.layout.activity_cockroach);
 
         go = findViewById(R.id.go);
         go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (clothes.this , laundry.class);  // 전 화면으로 이동
+                Intent intent = new Intent(cockroach.this, worm.class);  // 전 화면으로 이동
                 startActivity(intent);
             }
         });

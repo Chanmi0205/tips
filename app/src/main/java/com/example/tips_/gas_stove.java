@@ -7,24 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class clothes extends AppCompatActivity {
+public class gas_stove extends AppCompatActivity {
 
     private Button go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clothes);
+        setContentView(R.layout.activity_gas_stove);
 
         go = findViewById(R.id.go);
         go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent (clothes.this , laundry.class);  // 전 화면으로 이동
+                Intent intent = new Intent(gas_stove.this , cleaning.class);  // 전 화면으로 이동
                 startActivity(intent);
             }
         });
-
 
     }
 }

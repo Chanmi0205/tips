@@ -35,18 +35,18 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/image1"
+            android:id="@+id/tile"
             android:layout_width="207dp"
             android:layout_height="200dp"
-            android:text="B"
+            android:text="타일"
             android:textSize="40dp"/>
 
 
         <Button
-            android:id="@+id/image2"
+            android:id="@+id/faucet"
             android:layout_width="207dp"
             android:layout_height="200dp"
-            android:text="c"
+            android:text="수도꼭지"
             android:textSize="40dp" />
 
     </LinearLayout>
@@ -59,44 +59,23 @@
         >
 
         <Button
-            android:id="@+id/image3"
+            android:id="@+id/sink"
             android:layout_width="207dp"
             android:layout_height="200dp"
-            android:text="d"
+            android:text="싱크대"
             android:textSize="40dp"/>
 
 
         <Button
-            android:id="@+id/image4"
+            android:id="@+id/gas_stove"
             android:layout_width="207dp"
             android:layout_height="200dp"
-            android:text="e"
+            android:text="가스레인"
             android:textSize="40dp" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
 
-        <Button
-            android:id="@+id/image5"
-            android:layout_width="207dp"
-            android:layout_height="200dp"
-            android:text="f"
-            android:textSize="40dp"/>
-
-
-        <Button
-            android:id="@+id/image6"
-            android:layout_width="207dp"
-            android:layout_height="200dp"
-            android:text="g"
-            android:textSize="40dp" />
-
-    </LinearLayout>
 
 
 </LinearLayout>
