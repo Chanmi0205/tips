@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="a"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Q. 자취생활 팁의 내용이 신뢰성이 있나요?"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="A. 저희는 자료조사한 내용을 바탕으로 5건 이상의  사례를 찾아 이를 토대로 제작하고 있어 신뢰하셔도 됩니다."
+        android:textSize="19dp"/>
+
+</LinearLayout>

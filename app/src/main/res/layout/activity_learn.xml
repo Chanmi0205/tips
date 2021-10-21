@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+  <Button
+      android:id="@+id/go"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:text="a"
+      android:textSize="40dp"/>
+
+  <Button
+      android:id="@+id/removal"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:text="분리수거"
+      android:textSize="40dp"/>
+
+  <Button
+      android:id="@+id/cleaning"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:text="청소"
+      android:textSize="40dp"/>
+
+  <Button
+      android:id="@+id/laundry"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:text="빨래"
+      android:textSize="40dp"/>
+
+  <Button
+      android:id="@+id/worm"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:text="해충 박멸"
+      android:textSize="40dp"/>
+  <Button
+      android:id="@+id/guitar"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:text="기타"
+      android:textSize="40dp"/>
+
+</LinearLayout>

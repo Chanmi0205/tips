@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_bottle.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_cleaning.xml" value="0.18" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_clothes.xml" value="0.3278985507246377" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_guitar.xml" value="0.18" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_laundry.xml" value="0.18" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_learn.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_main.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_multi_tap.xml" value="0.2" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_qa.xml" value="0.3359375" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_qa1.xml" value="0.3359375" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_removal.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_tape.xml" value="0.3359375" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_tonic.xml" value="0.3359375" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_towel.xml" value="0.3278985507246377" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_tree.xml" value="0.3359375" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_wardrobe.xml" value="0.18" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips/app/src/main/res/layout/activity_worm.xml" value="0.21" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips_/app/src/main/res/layout/activity_bottle.xml" value="0.3359375" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips_/app/src/main/res/layout/activity_learn.xml" value="0.3359375" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips_/app/src/main/res/layout/activity_main.xml" value="0.3359375" />
+        <entry key="..\:/Users/chanm/AndroidStudioProjects/Tips_/app/src/main/res/layout/activity_removal.xml" value="0.3359375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
