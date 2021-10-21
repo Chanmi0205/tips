@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-        <Button
+        <ImageView
             android:id="@+id/image1"
             android:layout_width="207dp"
             android:layout_height="200dp"
@@ -43,10 +43,11 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="설명"
-            android:textSize="30pt"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1. 내용물을 비우고 물로 내부를 세척한다"
+            android:textColor="@color/black"
+            android:textSize="12pt" />
 
     </LinearLayout>
 
@@ -55,19 +56,22 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-        <Button
+        <ImageView
             android:id="@+id/image3"
             android:layout_width="207dp"
             android:layout_height="200dp"
             android:text="c"
+            android:src="@drawable/img"
             android:textSize="40dp"/>
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="설명"
-            android:textSize="30pt"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="
+3. 비닐 라벨은 뗀 뒤, 비닐류로 배출한다."
+            android:textColor="@color/black"
+            android:textSize="12pt" />
 
     </LinearLayout>
 
@@ -76,7 +80,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-        <Button
+        <ImageView
             android:id="@+id/image5"
             android:layout_width="207dp"
             android:layout_height="200dp"
@@ -85,10 +89,13 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="설명"
-            android:textSize="30pt"/>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="
+4. 페트병을 최대한 압축한 뒤 뚜껑을 닫은 후 폐트로 분리 배출"
+            android:textColor="@color/black"
+            android:textSize="12pt" />
+
 
     </LinearLayout>
 
