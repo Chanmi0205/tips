@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class cleaning extends AppCompatActivity {
 
-    private Button go;
+    private Button cleaning_go;
     private Button tile;
     private Button sink;
     private Button gas_stove;
@@ -57,8 +57,8 @@ public class cleaning extends AppCompatActivity {
         });
 
 
-        go = findViewById(R.id.go);
-        go.setOnClickListener(new View.OnClickListener() {
+        cleaning_go = findViewById(R.id.cleaning_go);
+        cleaning_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(cleaning.this , learn.class);  // 전 화면으로 이동

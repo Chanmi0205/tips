@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class tile extends AppCompatActivity {
 
-    private Button go;
+    private Button tile_go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,8 +17,8 @@ public class tile extends AppCompatActivity {
         setContentView(R.layout.activity_tile);
 
 
-        go = findViewById(R.id.go);
-        go.setOnClickListener(new View.OnClickListener() {
+        tile_go = findViewById(R.id.tile_go);
+        tile_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(tile.this , cleaning.class);  // 전 화면으로 이동

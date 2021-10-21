@@ -9,15 +9,15 @@ import android.widget.Button;
 
 public class worm extends AppCompatActivity {
 
-    private Button go;
+    private Button worm_go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_worm);
 
-        go = findViewById(R.id.go);
-        go.setOnClickListener(new View.OnClickListener() {
+        worm_go = findViewById(R.id.worm_go);
+        worm_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(worm.this, learn.class);  // 전 화면으로 이동

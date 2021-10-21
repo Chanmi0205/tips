@@ -9,15 +9,15 @@ import android.widget.Button;
 
 public class drosophila extends AppCompatActivity {
 
-    private Button go;
+    private Button drosophila_go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drosophila);
 
-        go = findViewById(R.id.go);
-        go.setOnClickListener(new View.OnClickListener() {
+        drosophila_go = findViewById(R.id.drosophila_go);
+        drosophila_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(drosophila.this, worm.class);  // 전 화면으로 이동

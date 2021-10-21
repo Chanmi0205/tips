@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class laundry extends AppCompatActivity {
 
-    private Button go;
+    private Button laundry_go;
     private Button wardrobe;
     private Button clothes;
     private Button towel;
@@ -46,8 +46,8 @@ public class laundry extends AppCompatActivity {
             }
         });
 
-        go = findViewById(R.id.go);
-        go.setOnClickListener(new View.OnClickListener() {
+        laundry_go = findViewById(R.id.laundry_go);
+        laundry_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(laundry.this, learn.class);  // 전 화면으로 이동

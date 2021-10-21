@@ -10,7 +10,7 @@ import android.widget.Button;
 public class learn extends AppCompatActivity {
 
     private Button removal;
-    private Button go;
+    private Button learn_go;
     private Button cleaning;
     private Button laundry;
     private Button worm;
@@ -67,8 +67,8 @@ public class learn extends AppCompatActivity {
             }
         });
 
-        go = findViewById(R.id.go);
-        go.setOnClickListener(new View.OnClickListener() {
+        learn_go = findViewById(R.id.learn_go);
+        learn_go.setOnClickListener(new View.OnClickListener() {
             class main {
             }
 

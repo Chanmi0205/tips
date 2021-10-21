@@ -9,15 +9,15 @@ import android.widget.Button;
 
 public class faucet extends AppCompatActivity {
 
-    private Button go;
+    private Button faucet_go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_faucet);
 
-        go = findViewById(R.id.go);
-        go.setOnClickListener(new View.OnClickListener() {
+        faucet_go = findViewById(R.id.faucet_go);
+        faucet_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(faucet.this , cleaning.class);  // 전 화면으로 이동

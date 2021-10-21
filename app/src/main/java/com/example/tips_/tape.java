@@ -9,15 +9,15 @@ import android.widget.Button;
 
 public class tape extends AppCompatActivity {
 
-    private Button go;
+    private Button sink_go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tape);
 
-        go = findViewById(R.id.go);
-        go.setOnClickListener(new View.OnClickListener() {
+        sink_go = findViewById(R.id.sink_go);
+        sink_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (tape.this , removal.class);  // 전 화면으로 이동

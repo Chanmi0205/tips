@@ -9,15 +9,15 @@ import android.widget.Button;
 
 public class cockroach extends AppCompatActivity {
 
-    private Button go;
+    private Button cockroach_go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cockroach);
 
-        go = findViewById(R.id.go);
-        go.setOnClickListener(new View.OnClickListener() {
+        cockroach_go = findViewById(R.id.cockroach_go);
+        cockroach_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(cockroach.this, worm.class);  // 전 화면으로 이동

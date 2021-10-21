@@ -9,15 +9,15 @@ import android.widget.Button;
 
 public class bottle extends AppCompatActivity {
 
-    private Button go;
+    private Button bottle_go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bottle);
 
-        go = findViewById(R.id.go);
-        go.setOnClickListener(new View.OnClickListener() {
+        bottle_go = findViewById(R.id.bottle_go);
+        bottle_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent (bottle.this , removal.class);  // 전 화면으로 이동

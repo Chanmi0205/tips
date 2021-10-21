@@ -10,7 +10,7 @@ import android.widget.Button;
 public class removal extends AppCompatActivity {
 
     private Button bottle;
-    private Button go;
+    private Button removal_go;
     private Button multi_tap;
     private Button tree;
     private Button tape;
@@ -57,8 +57,8 @@ public class removal extends AppCompatActivity {
             }
         });
 
-        go = findViewById(R.id.go);
-        go.setOnClickListener(new View.OnClickListener() {
+        removal_go = findViewById(R.id.removal_go);
+        removal_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(removal.this , learn.class);  // 전 화면으로 이동

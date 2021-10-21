@@ -14,7 +14,7 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/go"
+            android:id="@+id/faucet_go"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:text="a"
