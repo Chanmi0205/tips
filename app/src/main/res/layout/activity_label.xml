@@ -14,7 +14,7 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/mosquito_go"
+            android:id="@+id/lavel_go"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:text="a"
@@ -23,7 +23,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="모기"
+            android:text="라벨"
             android:textSize="25pt"
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"/>
@@ -34,7 +34,7 @@
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        app:srcCompat="@drawable/mosquito_image" >
+        app:srcCompat="@drawable/label_image">
     </ImageView>
 
 

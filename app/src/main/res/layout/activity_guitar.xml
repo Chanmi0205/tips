@@ -36,18 +36,18 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/image1"
+            android:id="@+id/lavel"
             android:layout_width="207dp"
             android:layout_height="200dp"
-            android:text="B"
+            android:text="라벨"
             android:textSize="40dp"/>
 
 
         <Button
-            android:id="@+id/image2"
+            android:id="@+id/laver"
             android:layout_width="207dp"
             android:layout_height="200dp"
-            android:text="c"
+            android:text="김"
             android:textSize="40dp" />
 
     </LinearLayout>
@@ -63,38 +63,15 @@
             android:id="@+id/image3"
             android:layout_width="207dp"
             android:layout_height="200dp"
-            android:text="d"
+            android:text="향수"
             android:textSize="40dp"/>
 
 
         <Button
-            android:id="@+id/image4"
+            android:id="@+id/rice"
             android:layout_width="207dp"
             android:layout_height="200dp"
-            android:text="e"
-            android:textSize="40dp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-
-        <Button
-            android:id="@+id/image5"
-            android:layout_width="207dp"
-            android:layout_height="200dp"
-            android:text="f"
-            android:textSize="40dp"/>
-
-
-        <Button
-            android:id="@+id/image6"
-            android:layout_width="207dp"
-            android:layout_height="200dp"
-            android:text="g"
+            android:text="쌀"
             android:textSize="40dp" />
 
     </LinearLayout>

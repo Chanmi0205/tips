@@ -11,10 +11,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tips_">
         <activity
+            android:name=".perfume"
+            android:exported="true" />
+        <activity
+            android:name=".rice"
+            android:exported="true" />
+        <activity
+            android:name=".laver"
+            android:exported="true" />
+        <activity
+            android:name=".label"
+            android:exported="true" />
+        <activity
             android:name=".gas_stove"
             android:exported="false" />
-        <activity android:name=".bottle"
-            android:exported="false"/>
+        <activity
+            android:name=".bottle"
+            android:exported="false" />
         <activity
             android:name=".sink"
             android:exported="false" />
