@@ -31,13 +31,12 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:layout_marginTop="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        app:srcCompat="@drawable/tree_image">
-    </ImageView>
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/tree_image"></ImageView>
 
     <TextView
         android:layout_width="match_parent"
@@ -49,7 +48,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="*크기와 종류 상관없이 일반쓰레기 또는 대형 생활 폐기물로 버려야 합니디.*\n"
+        android:text="*크기와 종류 상관없이 일반쓰레기 또는   대형 생활 폐기물로 버려야 합니디.*\n"
         android:textSize="10pt"
         android:gravity="center"/>
 

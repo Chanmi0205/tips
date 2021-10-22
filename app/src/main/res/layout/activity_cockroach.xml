@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,8 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,7 +49,7 @@
         android:text="1. 집에서 나온 바퀴벌레가 미국 바퀴벌레인지 독일 바퀴벌레인지 구분해야 합니다.\n\n
 2. 미국 바퀴벌레는 외부에서 들어온 \n바퀴벌레입니다.\n\n
 3. 에프킬라로 기절 시킨 뒤 변기에 넣고 \n돌려줍니다.\n\n
-4. 독일 바퀴벌레는 집 내부에서 자라는 \n바퀴벌레여서 해충 방지 회사를 불러야 \n합니다."
+4. 독일 바퀴벌레는 집 내부에서 자라는 \n바퀴벌레여서 해충 방지 회사를 불러야 \n합니다.\n\n 출처 https://blog.naver.com/alex2729/221634657048"
         android:textSize="10pt" />
 
 </LinearLayout>
@@ -59,4 +57,4 @@
 
 
 
-</LinearLayout>
+</ScrollView>

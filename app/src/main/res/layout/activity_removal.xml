@@ -76,12 +76,30 @@
 
     </LinearLayout>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"  >
+
         <Button
             android:id="@+id/tonic"
             android:layout_width="207dp"
             android:layout_height="200dp"
             android:text="영양제"
             android:textSize="40dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="      출처_\n      쓰레기 백과사전"
+            android:gravity="left|bottom"
+            android:textSize="10pt">
+
+        </TextView>
+
+    </LinearLayout>
 
 
 

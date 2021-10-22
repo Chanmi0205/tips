@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context=".bottle"
     android:background="@color/white" >
+
 
 
     <LinearLayout
@@ -18,8 +19,9 @@
             android:id="@+id/bottle_go"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:textSize="40dp"
-            android:background="@drawable/go_image"/>
+            android:background="@drawable/go_image"
+            android:backgroundTint="#5ECAF9"
+            android:textSize="40dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,11 +51,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="1. 내용물을 비웁니다.\n\n
-2. 물로 내부를 깨끗이 세척합니다\n\n
-3. 비닐 라벨 뗀 뒤, 비닐류로 배출합니다.\n\n
+        android:text="1. 내용물을 비웁니다.\n
+2. 물로 내부를 깨끗이 세척합니다\n
+3. 비닐 라벨 뗀 뒤, 비닐류로 배출합니다.\n
 4. 페트병은 최대한 압축한 뒤 뚜껑을 닫은 후 폐트로 분리수거합니다."
         android:textSize="10pt" />
 
 
-</ScrollView>
+
+</LinearLayout>
