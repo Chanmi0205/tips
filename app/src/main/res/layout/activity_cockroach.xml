@@ -7,6 +7,12 @@
     android:orientation="vertical"
     tools:context=".bottle" >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +32,8 @@
             android:text="바퀴벌레"
             android:textSize="25pt"
             android:layout_gravity="center"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginLeft="10dp"
+            android:background="@color/white" />
 
     </LinearLayout>
 
@@ -47,7 +54,7 @@
 4. 독일 바퀴벌레는 집 내부에서 자라는 \n바퀴벌레여서 해충 방지 회사를 불러야 \n합니다."
         android:textSize="10pt" />
 
-
+</LinearLayout>
 
 
 

@@ -5,21 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
-
-    <Button
+    <ImageView
         android:id="@+id/rogo"
         android:layout_width="match_parent"
         android:layout_height="243dp"
-        android:textSize="50dp" />
+        app:srcCompat="@drawable/rogo_image">
+
+    </ImageView>
 
     <Button
         android:id="@+id/learn"
         android:layout_width="match_parent"
         android:layout_height="243dp"
         android:text="알아보기"
-        android:textSize="50dp"/>
+        android:textSize="50dp"
+        android:background="@color/black"/>
 
     <Button
         android:id="@+id/qa"
