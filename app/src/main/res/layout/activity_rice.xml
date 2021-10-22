@@ -37,12 +37,12 @@
         app:srcCompat="@drawable/rice_image">
     </ImageView>
 
-
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="설명"
-        android:textSize="15pt" />
+        android:text="쌀봉투에 청양고추나 까지않은 마늘을 \n넣으면 쌀벌레가 생기지 않는다."
+        android:textSize="10pt"
+        android:gravity="center"/>
 
 
 

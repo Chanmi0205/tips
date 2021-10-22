@@ -60,7 +60,7 @@
         >
 
         <Button
-            android:id="@+id/image3"
+            android:id="@+id/perfume"
             android:layout_width="207dp"
             android:layout_height="200dp"
             android:text="향수"

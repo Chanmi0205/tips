@@ -37,12 +37,12 @@
         app:srcCompat="@drawable/laver_image">
     </ImageView>
 
-
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="설명"
-        android:textSize="15pt" />
+        android:text="눅눅해진 김을 전자레인지에 \n돌리면 바삭해진다."
+        android:textSize="10pt"
+        android:gravity="center"/>
 
 
 
