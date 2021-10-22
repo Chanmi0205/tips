@@ -21,8 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="243dp"
         android:text="알아보기"
-        android:textSize="50dp"
-        android:background="@color/black"/>
+        android:textSize="50dp" />
 
     <Button
         android:id="@+id/qa"

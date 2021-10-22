@@ -8,15 +8,15 @@ import android.widget.Button;
 
 public class rice extends AppCompatActivity {
 
-    private Button perfume_go;
+    private Button rice_go;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rice);
 
-        perfume_go = findViewById(R.id.perfume_go);
-        perfume_go.setOnClickListener(new View.OnClickListener() {
+        rice_go = findViewById(R.id.rice_go);
+        rice_go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();        // 전 화면으로 돌아가기

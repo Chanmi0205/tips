@@ -18,8 +18,8 @@
             android:id="@+id/tile_go"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:text="a"
-            android:textSize="40dp" />
+            android:textSize="40dp"
+            android:background="@drawable/go_image" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -48,15 +48,15 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:text="1.스프레이병에 레몬주스를 채워줍니다.\n\n
 2.타일에 레몬주스를 뿌려주고 타일에 뿌린 뒤 스펀지로 닦아줍니다."
         android:textSize="10pt" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:text="\n*레몬주스 닦기 전 타일 위에 베이킹소다를 얇게 뿌리는 것도 좋습니다*"
+        android:layout_height="100dp"
+        android:text="*레몬주스 닦기 전 타일 위에 베이킹소다를 얇게 뿌리는 것도 좋습니다*"
         android:textSize="10pt"
         android:gravity="center"/>
 
