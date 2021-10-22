@@ -42,7 +42,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="준비물 산소계 표벽제"
+        android:text="준비물 : 산소계 표벽제"
         android:textSize="10pt"
         android:gravity="center"/>
 
