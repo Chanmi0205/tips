@@ -39,11 +39,27 @@
 
     </ImageView>
 
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="설명"
-        android:textSize="15pt" />
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="준비물 :  행주, 따듯한 물"
+        android:textSize="10pt"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="- 행주를 따뜻한 물에 불리고 닦으면 훨씬 잘 닦입니다."
+        android:textSize="10pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="*처음에 흘렸을 때 닦아주면 \n때가 발생하지 않습니다.*"
+        android:textSize="10pt"
+        android:gravity="center"/>
+
 
 
 

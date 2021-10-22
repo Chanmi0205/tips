@@ -37,12 +37,19 @@
         app:srcCompat="@drawable/sink_image" >
     </ImageView>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="준비물 : 베이킹 소다, 식초, 칫솔"
+        android:textSize="10pt"
+        android:gravity="center"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="설명"
-        android:textSize="15pt" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1.하수구에 베이킹 소다와 식초를 섞어 뿌리고 찌든 때를 불려줍니다.\n\n
+2. 칫솔이나 솔로 박박 닦아줍니다."
+        android:textSize="10pt" />
 
 
 

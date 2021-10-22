@@ -39,10 +39,28 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="설명"
-        android:textSize="15pt" />
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="분류 : 일반쓰레기"
+        android:textSize="10pt"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="*테이프는 접착제가 묻어있어\n 재활용이 불가능*"
+        android:textSize="10pt"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="질에 상관없이 모두 일반쓰레기 \n종량제봉투로 버려야 합니다."
+        android:textSize="10pt"
+        android:gravity="center"/>
+
+
 
 
 

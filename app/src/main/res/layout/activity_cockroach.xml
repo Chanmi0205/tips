@@ -39,10 +39,15 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="설명"
-        android:textSize="15pt" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1. 집에서 나온 바퀴벌레가 미국 바퀴벌레인지 독일 바퀴벌레인지 구분해야 합니다.\n\n
+2. 미국 바퀴벌레는 외부에서 들어온 \n바퀴벌레입니다.\n\n
+3. 에프킬라로 기절 시킨 뒤 변기에 넣고 \n돌려줍니다.\n\n
+4. 독일 바퀴벌레는 집 내부에서 자라는 \n바퀴벌레여서 해충 방지 회사를 불러야 \n합니다."
+        android:textSize="10pt" />
+
+
 
 
 

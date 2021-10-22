@@ -37,12 +37,19 @@
         app:srcCompat="@drawable/faucet_image" >
     </ImageView>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="준비물 감자, 소금"
+        android:textSize="10pt"
+        android:gravity="center"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="설명"
-        android:textSize="15pt" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1. 감자를 반으로 잘라줍니다.\n\n
+2. 소금을 묻혀 문질러 주면 제거할 수 \n있습니다"
+        android:textSize="10pt" />
 
 
 

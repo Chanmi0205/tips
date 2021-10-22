@@ -23,7 +23,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="화장품"
+            android:text="향수"
             android:textSize="25pt"
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"/>
@@ -41,7 +41,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="다쓴 향수는 디퓨저로 만들어 옷장에 \n넣어두면 옷에서 향수 향이 나는 \n효과를 볼 수 있다."
+        android:text="다쓴 향수는 디퓨저로 만들어 옷장에 \n넣어두면 옷에서 향수 향이 나는 \n효과를 볼 수 있습니다."
         android:textSize="10pt"
         android:gravity="center"/>
 

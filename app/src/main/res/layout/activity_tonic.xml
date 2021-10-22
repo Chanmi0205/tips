@@ -39,10 +39,17 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="설명"
-        android:textSize="15pt" />
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="분류 : 폐의약품 수거함"
+        android:textSize="10pt"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="- 종류에 상관없이 약국, 보건소, 보건진료소 등에 비치된 폐의약품 수거함에 버립니다.\n\n- 종이 포장재는 일반쓰레기나 종이로 분리배출합니다."
+        android:textSize="10pt" />
 
 
 

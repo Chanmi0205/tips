@@ -12,8 +12,7 @@
         android:id="@+id/rogo"
         android:layout_width="match_parent"
         android:layout_height="243dp"
-        android:text="앱 로고"
-        android:textSize="50dp"/>
+        android:textSize="50dp" />
 
     <Button
         android:id="@+id/learn"

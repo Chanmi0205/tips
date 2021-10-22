@@ -37,12 +37,24 @@
         app:srcCompat="@drawable/mosquito_image" >
     </ImageView>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="준비물 : 빈 페트병, 설탕, \n베이킹파우더, 주방세제"
+        android:textSize="10pt"
+        android:gravity="center"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="설명"
-        android:textSize="15pt" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\n1. 빈 페트병의 입구를 5cm 정도 잘라 \n깔때기 모양으로 만든 다음에 자른 \n페트병에 설탕1스푼과 베이킹파우더를 \n2스푼 넣어줍니다.\n\n
+2. 가루들이 섞이도록 흔들어주고 페트병에 날짜를 기록해줍니다.\n\n
+
+3. 페트병에 따뜻한 물을 100ml정도 넣어주고 거품이 올라오면 깔때기 모양의 \n페트병을 거꾸로 꽂아놉니다.\n\n
+4. 흑설탕과 소금도 위와 비슷하게 \n준비합니다.\n\n
+
+5. 물만 100ml 넣은 것과 주방세제로 \n거품낸 것을 준비하여 모기가 자주 \n출몰하는 곳에 모기 퇴치기를 만든 것과 \n흑설탕을 넣은 것, 물, 세제만 넣은 것을 \n놓는다."
+        android:textSize="10pt" />
 
 
 

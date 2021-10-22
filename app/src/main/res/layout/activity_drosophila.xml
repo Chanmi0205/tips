@@ -39,10 +39,19 @@
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="설명"
-        android:textSize="15pt" />
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="분류 : 비닐류, 폐트"
+        android:textSize="10pt"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="
+1. 음식물 쓰레기를 밀봉합니다.\n\n
+2. 냉동실에서 냉동한 후 버립니다."
+        android:textSize="10pt" />
 
 
 

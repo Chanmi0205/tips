@@ -38,13 +38,21 @@
     </ImageView>
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="설명"
-            android:textSize="15pt" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="분류 : 비닐류, 폐트"
+        android:textSize="10pt"
+        android:gravity="center"/>
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1. 내용물을 비웁니다.\n\n
+2. 물로 내부를 깨끗이 세척합니다\n\n
+3. 비닐 라벨 뗀 뒤, 비닐류로 배출합니다.\n\n
+4. 페트병은 최대한 압축한 뒤 뚜껑을 닫은 후 폐트로 분리수거한다."
+        android:textSize="10pt" />
 
 
 </LinearLayout>

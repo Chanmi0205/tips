@@ -40,7 +40,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="눅눅해진 김을 전자레인지에 \n돌리면 바삭해진다."
+        android:text="눅눅해진 김을 전자레인지에 \n돌리면 바삭해집니다."
         android:textSize="10pt"
         android:gravity="center"/>
 

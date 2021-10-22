@@ -19,6 +19,15 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:text="Q. 자취생활 팁의 내용이 신뢰성이 있나요?"
-            android:textSize="19dp"/>
+            android:textSize="19dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:text="기획자 최혜영 <h0k9a07@naver.com>\n개발자 박찬미 <chanmi1155@naver.com>"
+        android:gravity="left|bottom"
+        android:textSize="20dp">
+
+    </TextView>
 
 </LinearLayout>

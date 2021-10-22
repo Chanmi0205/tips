@@ -37,12 +37,14 @@
         app:srcCompat="@drawable/clothes_image">
     </ImageView>
 
-
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="설명"
-        android:textSize="15pt" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" 1. 달걀껍데기와 함께 삶습니다.\n\n
+2. 삶은 뒤에는 물로 깨끗이 헹구어 줍니다.\n\n
+3. 달걀 껍데기를 잘게 부수어 거즈에 \n빈틈이 없도록 꼭 싼 뒤 분무기로 물을 살짝 뿌려 마루바닥을 문질러주면 아주 매끄럽게 됩니다.\n"
+        android:textSize="10pt" />
+
 
 
 
