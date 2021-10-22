@@ -15,7 +15,7 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/bottle_go"
+            android:id="@+id/clothes_go"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:text="a"

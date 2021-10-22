@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/tips/app/src/main/res/layout/activity_bottle.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/tips/app/src/main/res/layout/activity_cleaning.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/tips/app/src/main/res/layout/activity_clothes.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/tips/app/src/main/res/layout/activity_tape.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/tips/app/src/main/res/layout/activity_tile.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/tips/app/src/main/res/layout/activity_tonic.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/tips/app/src/main/res/layout/activity_towel.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/tips/app/src/main/res/layout/activity_tree.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/tips/app/src/main/res/layout/activity_worm.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/User/AndroidStudioProjects/tips/app/src/main/res/layout/activity_bottle.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/tips/app/src/main/res/layout/activity_cleaning.xml" value="0.18" />
         <entry key="..\:/Users/User/AndroidStudioProjects/tips/app/src/main/res/layout/activity_clothes.xml" value="0.16" />
