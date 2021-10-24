@@ -55,7 +55,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="- 일반쓰레기: 나무젓가락\n - 나무도마, 작은 나무토막 등 종량제봉투에 담을 수 있는 크기의 나무류 포함\n- 대형 생활 폐기물: 나무 판자 등의 대형 목재, 책상, 의자, 침대 등의 원목 가구"
+        android:text=" - 일반쓰레기: 나무젓가락\n - 나무도마, 작은 나무토막 등 종량제봉투에 담을 수 있는 크기의 나무류 포함\n - 대형 생활 폐기물: 나무 판자 등의 대형 \n목재, 책상, 의자, 침대 등의 원목 가구"
         android:textSize="10pt" />
 
 

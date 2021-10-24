@@ -51,10 +51,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="1. 내용물을 비웁니다.\n
-2. 물로 내부를 깨끗이 세척합니다\n
-3. 비닐 라벨 뗀 뒤, 비닐류로 배출합니다.\n
-4. 페트병은 최대한 압축한 뒤 뚜껑을 닫은 후 폐트로 분리수거합니다."
+        android:text=" 1. 내용물을 비웁니다.\n
+ 2. 물로 내부를 깨끗이 세척합니다\n
+ 3. 비닐 라벨 뗀 뒤, 비닐류로 배출합니다.\n
+ 4. 페트병은 최대한 압축한 뒤 뚜껑을 닫은 후 폐트로 분리수거합니다."
         android:textSize="10pt" />
 
 

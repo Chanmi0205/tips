@@ -10,18 +10,39 @@ import android.widget.Button;
 public class qa extends AppCompatActivity {
 
     private Button qa_go;
-    private Button q1;
+    private Button qa1;
+    private Button qa2;
+    private Button qa3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qa);
 
-        q1 = findViewById(R.id.q1);
-        q1.setOnClickListener(new View.OnClickListener() {
+        qa3 = findViewById(R.id.qa3);
+        qa3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(qa.this, qa1.class);  // 전 화면으로 이동
+                Intent intent = new Intent ( qa.this , qa3.class);  // qa3화면으로 이동
+                startActivity(intent);
+            }
+        });
+
+        qa2 = findViewById(R.id.qa2);
+        qa2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (qa.this , qa2.class);  // qa2화면으로 이동
+                startActivity(intent);
+            }
+        });
+
+
+        qa1 = findViewById(R.id.qa1);
+        qa1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(qa.this, qa1.class);  // qa1화면으로 이동
                 startActivity(intent);
             }
         });

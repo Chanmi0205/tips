@@ -42,7 +42,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:text="\n- 옷장문을 자주 열어 공기순환을 시키고 \n장농 안에 습기제거제를 비치합니다.\n\n"
+        android:text="\n - 옷장문을 자주 열어 공기순환을 시키고 \n장농 안에 습기제거제를 비치합니다.\n\n"
         android:textSize="10pt" />
 
 

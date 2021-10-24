@@ -33,26 +33,61 @@
             android:layout_marginLeft="10dp"
             android:background="@color/white" />
 
+
     </LinearLayout>
 
-    <ImageView
-        android:layout_marginTop="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        app:srcCompat="@drawable/cockroach_image" >
-    </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
 
+
+            <ImageView
+                android:id="@+id/german_cockroach"
+                android:layout_width="207dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/german_cockroach_image">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/american_cockroaches"
+                android:layout_width="207dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/american_cockroaches_image" >
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="   독일 바퀴벌레     미국 바퀴벌레"
+            android:textSize="30dp">
+
+        </TextView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="1. 집에서 나온 바퀴벌레가 미국 바퀴벌레인지 독일 바퀴벌레인지 구분해야 합니다.\n\n
-2. 미국 바퀴벌레는 외부에서 들어온 \n바퀴벌레입니다.\n\n
-3. 에프킬라로 기절 시킨 뒤 변기에 넣고 \n돌려줍니다.\n\n
-4. 독일 바퀴벌레는 집 내부에서 자라는 \n바퀴벌레여서 해충 방지 회사를 불러야 \n합니다.\n\n 출처 https://blog.naver.com/alex2729/221634657048"
+        android:text="*이미지 클릭 시 각각의 특징 확인할 수 있는 화면 볼 수 있습니다.* \n\n - 집에서 나온 바퀴벌레가 미국 바퀴벌레인지 독일 바퀴벌레인지 구분해야 합니다.\n\n
+@. 미국 바퀴벌레\n - 미국 바퀴벌레는 외부에서 들어온 \n바퀴벌레입니다.\n\n
+ - 에프킬라로 기절 시킨 뒤 변기에 넣고 \n돌려줍니다.\n\n\n
+@. 독일 바퀴벌레\n 독일 바퀴벌레는 집 내부에서 자라는 \n바퀴벌레여서 해충 방지 회사를 불러야 \n합니다.\n\n"
         android:textSize="10pt" />
 
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="그림 출처_\nhttps://m.etnews.com/20141023000249#cb"
+            android:gravity="left|bottom"
+            android:textSize="7pt" />
+
+
+
+    </LinearLayout>
+
+
 
 
 

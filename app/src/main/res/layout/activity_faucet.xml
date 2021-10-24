@@ -48,8 +48,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="1. 감자를 반으로 잘라줍니다.\n\n
-2. 소금을 묻혀 문질러 주면 제거할 수 \n있습니다"
+        android:text=" 1. 감자를 반으로 잘라줍니다.\n\n
+ 2. 소금을 묻혀 문질러 주면 제거할 수 \n있습니다"
         android:textSize="10pt" />
 
 

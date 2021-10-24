@@ -15,7 +15,7 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/tonic_go"
+            android:id="@+id/german_cockroach_go"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textSize="40dp"
@@ -24,8 +24,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="영양제"
-            android:textSize="25pt"
+            android:text="독일 바퀴벌레"
+            android:textSize="20pt"
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"/>
 
@@ -35,22 +35,24 @@
         android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        app:srcCompat="@drawable/tinoc_image">
+        app:srcCompat="@drawable/german_cockroach_image">
     </ImageView>
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="분류 : 폐의약품 수거함"
-        android:textSize="10pt"
-        android:gravity="center"/>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text=" - 종류에 상관없이 약국, 보건소, 보건진료소 등에 비치된 폐의약품 수거함에 \n버립니다.\n\n - 종이 포장재는 일반쓰레기나 종이로 분리배출합니다."
+        android:layout_height='250dp'
+        android:text=" - 성충의 크기는 약 10~16mm이며,\n 체색은 밝은 황갈색이나 암컷은 약간 \n검습니다. \n\n - 전흉배판에 두 줄의 검은색 줄이 있으며, 날개는 암컷은 복부를 다 덮고 있으나 \n수컷은 선단이 약간 노출되어 있습니다.
+         \n\n"
         android:textSize="10pt" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="그림 출처_\nhttps://m.etnews.com/20141023000249#cb"
+        android:gravity="left|bottom"
+        android:textSize="7pt" />
+
 
 
 

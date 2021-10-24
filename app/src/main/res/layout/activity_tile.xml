@@ -49,7 +49,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="1.스프레이병에 레몬주스를 채워줍니다.\n\n
+        android:text=" - 스프레이병에 레몬주스를 채워줍니다.\n\n
 2.타일에 레몬주스를 뿌려주고 타일에 뿌린 뒤 스펀지로 닦아줍니다."
         android:textSize="10pt" />
 

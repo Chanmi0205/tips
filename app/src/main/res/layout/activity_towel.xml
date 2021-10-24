@@ -49,8 +49,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="1. 다른 빨랫감과 섞지 않고 물기를 \n어느 정도 말립니다.\n\n
-2. 세탁하거나, 고온에 삶거나, 산소계 \n표벽제를 넣어서 살균세탁을 합니다"
+        android:text=" 1. 다른 빨랫감과 섞지 않고 물기를 \n어느 정도 말립니다.\n\n
+ 2. 세탁하거나, 고온에 삶거나, 산소계 \n표벽제를 넣어서 살균세탁을 합니다"
         android:textSize="10pt" />
 
 

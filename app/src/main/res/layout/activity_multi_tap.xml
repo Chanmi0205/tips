@@ -49,8 +49,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="1. 전선, 각종 케이블 등 다른 소형 전기제품들과 한 곳에 모아둡니다.\n\n
-2. 폐가전 무상방문수거 서비스를 이용하여 다른 가전제품을 버릴 때 함께 제출합니다."
+        android:text=" 1. 전선, 각종 케이블 등 다른 소형 전기제품들과 한 곳에 모아둡니다.\n\n
+ 2. 폐가전 무상방문수거 서비스를 \n이용하여 다른 가전제품을 버릴 때 함께 제출합니다."
         android:textSize="10pt" />
 
 
