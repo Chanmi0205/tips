@@ -41,7 +41,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:text="준비물 감자, 소금"
+        android:text="준비물 : 감자, 소금"
         android:textSize="10pt"
         android:gravity="center"/>
 
